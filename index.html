@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Search</title>
     </head>
     <body>
-        <hi>Google</hi>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id = "switch">
+            <a href="index.html">Image Search </a>
+            <a href="index.html">Advanced Search </a>
+        </div>
+        <div id = "image">
+            <img src="googlelogo.png" alt = "google logo" style="margin-top: 125px;">        
+            <form action="https://www.google.com/search" ">
+                <input type="text" name="q" style="width: 650px; height: 40px; margin: 30px; border-radius: 30px;border:1px solid rgba(1,1,1,.1)">
+                <br>
+                <div id="search_tabs" style="opacity: 0.8;">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm feeling lucky">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
