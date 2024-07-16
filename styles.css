@@ -1,6 +1,6 @@
-li {
+nav ul {
+  display: flex;
   list-style-type: none;
+  justify-content: right;
 }
 
-
-adding this for checking purposes
