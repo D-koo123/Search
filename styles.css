@@ -3,4 +3,6 @@ nav ul {
   list-style-type: none;
   justify-content: right;
 }
-
+nav ul li, a {
+  margin: 5px;
+}
