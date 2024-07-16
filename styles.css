@@ -2,11 +2,52 @@ nav ul {
   display: flex;
   list-style-type: none;
   justify-content: right;
+  margin-top: 5px;
 }
+
+
 nav ul li, a {
   margin: 5px;
+}
+
+.search_tabs {
+  background-color: #efefef;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: medium;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons, .switch-tabs {
+  display: inline-block;
+  padding: 10px;
+}
+
+.icons:hover {
+  background-color:rgba(100, 100, 100, 1)
+}
+
+.switch-tabs:hover {
+  text-decoration: underline;
 }
 
 body {
   text-align: center;
 }
+
+form {
+  position: relative
+}
+
+.text-area {
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+

@@ -5,20 +5,20 @@
         <header>
             <nav>
                 <ul>
-                    <a href="index.html">Image Search </a>
-                    <a href="index.html">Advanced Search </a>
-                    <li>
+                    <a class = "switch-tabs" href="index.html">Image Search </a>
+                    <a class = "switch-tabs" href="index.html">Advanced Search </a>
+                    <li class="icons">
                         <a href="#"> 
                             <img src = "Images/lab.png" alt="Lab icon" style="width: 20px; height:20px;">
                         </a>
                     </li>
-                    <li>
+                    <li class="icons" style="border-radius: 80%;">
                         <a href ="#">
                             <img src="Images/button.png" alt ="Menu Icon" style="width: 20px; height:20px;">
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="icons">
+                        <a  href="#">
                             <img src ="Images/profile.png" alt = "Profile Picture" style="width: 50px; height:50px;">
                         </a>
                     </li>
@@ -27,8 +27,16 @@
         </header>
     </head>
     <body>
-        <img src ="Images/googlelogo.png">
-
-        
+        <div id = "image">
+            <img src="Images/googlelogo.png" alt = "google logo" style="margin-top: 125px;">        
+            <form action="https://www.google.com/search">
+                <input id = "text-area" type="text" name="q" style="width: 650px; height: 40px; margin: 30px; border-radius: 30px;border:1px solid rgba(1,1,1,.1)">
+                <br>
+                <div>
+                    <input class ="search_tabs" type="submit" value="Google Search">
+                    <input class ="search_tabs" type="submit" value="I'm feeling lucky">
+                </div>
+            </form>
+        </div>      
     </body>
 </html>
