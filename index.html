@@ -30,13 +30,57 @@
         <div id = "image">
             <img src="Images/googlelogo.png" alt = "google logo" style="margin-top: 125px;">        
             <form action="https://www.google.com/search">
-                <input id = "text-area" type="text" name="q" style="width: 650px; height: 40px; margin: 30px; border-radius: 30px;border:1px solid rgba(1,1,1,.1)">
+                
+                <div style="position: relative;">
+                    <textarea id = "text-area" type="text" name="q" autofocus> </textarea>
+                </div>
+                <div id = "search-icons">
+                    <div>
+                        <img  class ="pics" src="Images/lens.png" >
+                    </div>
+                    <div>
+                        <img  class ="pics" src="Images/mic.png">
+                        <img  class ="pics" src="Images/camera.png">
+                    </div>
+                    
+                </div>
                 <br>
                 <div>
-                    <input class ="search_tabs" type="submit" value="Google Search">
-                    <input class ="search_tabs" type="submit" value="I'm feeling lucky">
+                <input class ="search_tabs" type="submit" value="Google Search">
+                <input class ="search_tabs" type="submit" value="I'm feeling lucky">
+                </div>
+                <br><br>
+                <div>
+                    Google offered in:<a href="#">Kiswahili</a>
                 </div>
             </form>
-        </div>      
+        </div>   
+        <footer>
+            <div style="text-align: left; padding-left:20px;">
+                Kenya
+            </div>
+            <div id = bottom_footer_div>
+                <div>
+                    <ul style="text-align: left;">
+                        <li><a class="footer_links">About</a></li>
+                        <li><a class="footer_links">Advertising</a></li>
+                        <li><a class="footer_links">Business</a></li>
+                        <li><a class="footer_links">How Search works</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul style="text-align: center;">
+                        <li><a class="footer_links">Our third decade of climate action: join us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="footer_links">Privacy</a></li>
+                        <li><a class="footer_links">Terms</a></li>
+                        <li><a class="footer_links">Settings</a></li>
+                    </ul>
+                </div>              
+            </div>
+        </footer>   
     </body>
 </html>
