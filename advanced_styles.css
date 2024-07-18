@@ -5,44 +5,58 @@
     font-family: "Arial, sans-serif";
   }
   
-  
-  nav ul {
+
+header {
+    margin: 10px;
+}
+
+
+#header-google {
+    text-decoration: none;
+}
+
+
+nav ul {
     display: flex;
     list-style-type: none;
     justify-content: right;
     align-items: center;
     margin-top: 5px;
-  }
+}
   
   
-  nav ul li, a {
+nav ul li, a {
     margin-right: 3px;
-  }
+}
 
-  .icons, .switch-tabs {
+
+.icons, .switch-tabs {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: black;
-  }
-
-
-
-h1 {
-    padding-left: 10px;
 }
+
+
+#first-title {
+    color: red;
+    font-size: 20px;
+    font-style: inherit;
+}
+
 
 hr {
-    border: 1px solid gainsboro;
+    border: 0.5px solid gainsboro;
     padding: 0;
 }
+
 
 #form-container {
     width: 75vw;
 }
   
 section{
-    padding: 40px;
+    padding: 20px;
 }
 
 h3{
@@ -67,9 +81,7 @@ h3{
 
 #submission-grid > * {
     padding: 10px;
-
     margin: 5px;
-
 }
 
 
@@ -83,8 +95,6 @@ h3{
 }
 
 
-
-
 .submit-input {
     border: 1px solid lightgray;
     width: 95%;
@@ -93,10 +103,11 @@ h3{
 
 .search_tabs {
     background-color: #4d90fe;
-    border: 2px solid rgba(0, 0, 255, 0.5);
-    border-radius: 5px;
-    font-size: medium;
+    border-radius: 2px;
     padding: 10px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -106,7 +117,9 @@ h3{
 }
 
 
-
+#disclaimer {
+    text-decoration: none;
+}
 
 
 
