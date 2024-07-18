@@ -2,7 +2,7 @@
     margin: 0;
     border: 0;
     padding:0;
-    font-family: "product-sans";
+    font-family: "Arial, sans-serif";
   }
   
   
@@ -25,6 +25,86 @@
     text-decoration: none;
     color: black;
   }
+
+
+
+h1 {
+    padding-left: 10px;
+}
+
+hr {
+    border: 1px solid gainsboro;
+    padding: 0;
+}
+
+#form-container {
+    width: 75vw;
+}
+  
+section{
+    padding: 40px;
+}
+
+h3{
+    color: red;
+    padding-left: 0;
+}
+
+
+
+
+#submission-grid {
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    grid-auto-rows: 50px;
+    padding: 10px;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 100%;
+
+
+}
+
+#submission-grid > * {
+    padding: 10px;
+
+    margin: 5px;
+
+}
+
+
+.right-label {
+    font-size: 0.8rem;
+}
+  
+.middle-label {
+    width: 100%;
+
+}
+
+
+
+
+.submit-input {
+    border: 1px solid lightgray;
+    width: 95%;
+    height: 100%;
+}
+
+.search_tabs {
+    background-color: #4d90fe;
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 10px;
+}
+
+
+#buttons-tabs {
+    gap: 10px;
+
+}
+
 
 
 

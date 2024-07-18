@@ -3,6 +3,9 @@
     <head>
         <title>Advanced Search</title>
         <link rel="stylesheet" href="advanced_styles.css">
+        
+    </head>
+    <body> 
         <header>
             <nav>
                 <ul>
@@ -25,30 +28,72 @@
                     </li>
                 </ul>
             </nav>
-        </header>
-    </head>
-    <body>   
-        <h1>Advanced Search</h1>
-
-        <hr>
-        
-        <form action="https://www.google.com/search">
-            <div id= "input_div">
-                <div id ="text-area">
-                    <input id="input-area" type="text" name="q" autofocus>
+        </header> 
+        <h1><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+        </h1>
+        <section> 
+        <h3>Advanced Search</h3>
+        </section>
+            <hr>
+        <section style="padding-left: 10px;">
+                <div id="form-container">
+                    <form action="https://www.google.com/search">
+                        <div id="submission-grid">
+                            <div class="left-label">
+                                <b>Find pages with...</b>
+                            </div>
+                            <div class="middle-label"></div>
+                            <div class="right-label">
+                                <strong>To do this in the search box.</strong>
+                            </div>
+                            <div class="left-label">
+                                all these words:
+                            </div>
+                            <div class="middle-label">
+                                <input type="text" class="submit-input">
+                            </div class="middle-label">
+                            <div class="right-label">
+                                Type the important words: tri-colour rat terrier
+                            </div>
+                            <div class="left-label">
+                                this exact word or phrase:
+                            </div>
+                            <div class="middle-label">
+                                <input type="text" class="submit-input">
+                            </div>
+                            <div class="right-label">
+                                Put exact words in quotes: "rat terrier"
+                            </div>
+                            <div class="left-label">
+                                any of these words:
+                            </div>
+                            <div class="middle-label">
+                                <input  type="text" class="submit-input">
+                            </div>
+                            <div class="right-label">
+                                Type OR between all the words you want: miniature OR standard
+                            </div>
+                            <div class="left-label">
+                                none of these words:
+                            </div>
+                            <div class="middle-label">
+                                <input  type="text" class="submit-input">
+                            </div>
+                            <div class="right-label">
+                                Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                            </div> 
+                            <div></div>
+                            <div id="button-tabs" style="justify-self:end;">
+                                <input class ="search_tabs" type="submit" value="Advanced Search">
+                                <input class ="search_tabs" type="submit" value="I'm feeling lucky">
+                            </div>
+                            <div></div>
+                        </div>
+                    </form>
                 </div>
-            </div>
-            <br>
-            <div style="display:flex; gap: 10px; justify-content: center;">
-                <input class ="search_tabs" type="submit" value="Google Search">
-                <input class ="search_tabs" type="submit" value="I'm feeling lucky">
-            </div>
-            <br>
-            <div>
-                Google offered in:<a href="#">Kiswahili</a>
-            </div>
-        </form>
-        </div>   
+            
+            </div> 
+    </section>  
         <footer>
             <div style="text-align: left; padding-left:20px;">
                 Kenya
