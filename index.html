@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Search</title>
         <link rel="stylesheet" href="styles.css">
         <header>
             <nav>
@@ -33,26 +34,24 @@
             </a>   
             <br><br>    
             <form action="https://www.google.com/search">
-                <div style = "width: 30%; margin: auto; border: 5px solid black;position: relative;">
-                    <div >
-                        <input id ="text-area" type="text" name="q" autofocus>
+                <div id= "input_div">
+                    <div>
+                        <img  class ="pics" src="Images/lens.png" >
                     </div>
-                    <div id = "search-icons">
-                        <div>
-                            <img  class ="pics" src="Images/lens.png" >
-                        </div>
-                        <div>
-                            <img  class ="pics" src="Images/mic.png">
-                            <img  class ="pics" src="Images/camera.png">
-                        </div>
+                    <div id ="text-area">
+                        <input id="input-area" type="text" name="q" autofocus>
+                    </div>
+                    <div>
+                        <img  class ="pics" src="Images/mic.png" title="Search by Voice">
+                        <img  class ="pics" src="Images/camera.png" title="Search by Image">
                     </div>
                 </div>
                 <br>
-                <div>
+                <div style="display:flex; gap: 10px; justify-content: center;">
                     <input class ="search_tabs" type="submit" value="Google Search">
                     <input class ="search_tabs" type="submit" value="I'm feeling lucky">
                 </div>
-                <br><br>
+                <br>
                 <div>
                     Google offered in:<a href="#">Kiswahili</a>
                 </div>
