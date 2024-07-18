@@ -105,9 +105,13 @@ h3{
     background-color: #4d90fe;
     border-radius: 2px;
     padding: 10px;
-    font-size: 0.8rem;
+    font-size: 11px;
     color: white;
     font-weight: bold;
+}
+
+.search_tabs:hover {
+    box-shadow: 0 0 1px 1px rgb(42, 43, 43);
 }
 
 

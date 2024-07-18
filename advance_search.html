@@ -2,15 +2,18 @@
 <html>
     <head>
         <title>Advanced Search</title>
-        <link rel="stylesheet" href="advanced_styles.css">
-        
+        <link rel="stylesheet" href="advanced_styles.css">    
     </head>
     <body> 
-        <header>
+        <header style="display: flex;justify-content: space-between;align-items: center;">
+            <a id= "header-google"href="https://www.google.com">
+                <h2><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+                </h2>
+            </a>
             <nav>
                 <ul>
+                    <a class = "switch-tabs" href="index.html">Google Search </a>
                     <a class = "switch-tabs" href="image_search.html">Image Search </a>
-                    <a class = "switch-tabs" href="index.html">Advanced Search </a>
                     <li class="icons">
                         <a href="#"> 
                             <img src = "Images/lab.png" title = "Search labs" alt="Lab icon" style="width: 20px; height:20px;">
@@ -29,10 +32,8 @@
                 </ul>
             </nav>
         </header> 
-        <h1><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: yellow;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
-        </h1>
         <section> 
-        <h3>Advanced Search</h3>
+        <P id="first-title">Advanced Search</p>
         </section>
             <hr>
         <section style="padding-left: 10px;">
@@ -50,7 +51,7 @@
                                 all these words:
                             </div>
                             <div class="middle-label">
-                                <input type="text" class="submit-input">
+                                <input type="text" class="submit-input" name="as_q">
                             </div class="middle-label">
                             <div class="right-label">
                                 Type the important words: tri-colour rat terrier
@@ -59,7 +60,7 @@
                                 this exact word or phrase:
                             </div>
                             <div class="middle-label">
-                                <input type="text" class="submit-input">
+                                <input type="text" class="submit-input" name="as_epq">
                             </div>
                             <div class="right-label">
                                 Put exact words in quotes: "rat terrier"
@@ -68,7 +69,7 @@
                                 any of these words:
                             </div>
                             <div class="middle-label">
-                                <input  type="text" class="submit-input">
+                                <input  type="text" class="submit-input" name="as_oq">
                             </div>
                             <div class="right-label">
                                 Type OR between all the words you want: miniature OR standard
@@ -77,7 +78,7 @@
                                 none of these words:
                             </div>
                             <div class="middle-label">
-                                <input  type="text" class="submit-input">
+                                <input  type="text" class="submit-input" name="as_eq">
                             </div>
                             <div class="right-label">
                                 Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
@@ -85,15 +86,22 @@
                             <div></div>
                             <div id="button-tabs" style="justify-self:end;">
                                 <input class ="search_tabs" type="submit" value="Advanced Search">
-                                <input class ="search_tabs" type="submit" value="I'm feeling lucky">
                             </div>
                             <div></div>
                         </div>
                     </form>
                 </div>
-            
             </div> 
-    </section>  
+        </section>
+        <p>
+        You can also...<br>
+        <a href="#" id="disclaimer">
+        Find pages that are similar to a URL<br>
+        Search pages that you've visited<br>
+        Use operators in the search box<br>
+        Customise your search settings<br>  
+        </a>
+        </p>
         <footer>
             <div style="text-align: left; padding-left:20px;">
                 Kenya
