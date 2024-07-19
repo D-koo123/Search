@@ -2,7 +2,7 @@
   margin: 0;
   border: 0;
   padding:0;
-  font-family: "product-sans";
+  font-family: Arial,sans-serif;
 }
 
 
@@ -25,6 +25,7 @@ nav ul li, a {
   padding: 10px;
   text-decoration: none;
   color: black;
+  font-size: small;
 }
 
 .icons:hover {
@@ -58,6 +59,9 @@ body {
   padding: 10px;
 }
 
+.pics:hover {
+  cursor: pointer;
+}
 
 #input_div > #text-area {
   flex-grow: 1;
@@ -65,8 +69,9 @@ body {
 
 
 #input_div:hover {
-  box-shadow: 0 0 3px 2px rgba(100, 100, 100, 1);
+  box-shadow: 0 0 2px 2px rgb(238, 236, 236);
 }
+
 
 #input-area {
   height: 40px; 
@@ -86,14 +91,16 @@ input:focus {
 .search_tabs {
   background-color: #f4f4f4;
   border:none;
-  border-radius: 2px;
-  font-size: medium;
-  padding: 5px;
+  border-radius: 4px;
+  font-family: "Arial","sans-serif";
+  font-size: 14px;
+  color: #3c4043;
+  padding: 10px;
 }
 
 
 .search_tabs:hover {
-  border: 2px solid #e9e9e9;
+  box-shadow: 0 0 2px 0 rgba(100, 100, 100, 1);
 }
 
 
@@ -102,6 +109,7 @@ footer {
   position:fixed;
   bottom: 0;
   width: 100%;
+  font-size: 14px;
 }
 
 

@@ -4,7 +4,6 @@
     padding:0;
     font-family: "Arial, sans-serif";
   }
-  
 
 header {
     margin: 10px;
@@ -13,6 +12,8 @@ header {
 
 #header-google {
     text-decoration: none;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 
@@ -39,15 +40,14 @@ nav ul li, a {
 
 
 #first-title {
-    color: red;
-    font-size: 20px;
+    color: #d93025;
+    font-size: 22px;
     font-style: inherit;
 }
 
 
 hr {
     border: 0.5px solid gainsboro;
-    padding: 0;
 }
 
 
@@ -59,41 +59,54 @@ section{
     padding: 20px;
 }
 
+
 h3{
     color: red;
     padding-left: 0;
 }
 
 
-
-
 #submission-grid {
     display: grid;
-    grid-template-columns: 15% 55% 30%;
-    grid-auto-rows: 50px;
-    padding: 10px;
+    grid-template-columns: 18% 55% 27%;
+    grid-auto-rows: 45px;
+    align-content: center;
+    margin-top: 30px;
     font-style: inherit;
     font-weight: inherit;
-    font-size: 100%;
-
-
+    font-size: 16px;
 }
 
 #submission-grid > * {
+    display:flex;
+    align-items: center;
+    justify-content: left;
     padding: 10px;
-    margin: 5px;
+    padding-left: 0;
+    margin: 0;
 }
 
+.left-label {
+    padding: 5px;
+    color: #222;
+    font-size: 15px;
+}
 
 .right-label {
     font-size: 0.8rem;
+    color: #555;
 }
+
   
 .middle-label {
     width: 100%;
 
 }
 
+.table-labels {
+    font-family: inherit;
+    font-weight: inherit;
+}
 
 .submit-input {
     border: 1px solid lightgray;
@@ -105,6 +118,7 @@ h3{
     background-color: #4d90fe;
     border-radius: 2px;
     padding: 10px;
+    margin-right: 20px;
     font-size: 11px;
     color: white;
     font-weight: bold;
@@ -121,17 +135,19 @@ h3{
 }
 
 
-#disclaimer {
+#disclaimer-area {
     text-decoration: none;
+    color: #2966c9;
+}
+
+.disclaimer:hover {
+    text-decoration: underline;
 }
 
 
 
 
-
-
-
-  footer {
+footer {
     background-color: #f5f5f5;
     position:fixed;
     bottom: 0;
