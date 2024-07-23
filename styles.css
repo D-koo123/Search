@@ -145,3 +145,32 @@ footer div ul li {
 #bottom_footer_div > * {
   flex-basis: 33%;
 }
+
+@media (max-width: 960px){
+  #bottom_footer_div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #bottom_footer_div > * {
+    margin: 10px;
+  }
+  #bottom_footer_div > div:nth-child(1){
+    order:2;
+  }
+  #bottom_footer_div > div:nth-child(2){
+    order: 1;
+  }
+  #bottom_footer_div > div:nth-child(3){
+      order: 3;
+  }
+  #input_div{
+    width: 90vw;
+  }
+}
+
+@media (max-height: 600px) {
+  #bottom_footer_div {
+    display: none;
+  }
+}
